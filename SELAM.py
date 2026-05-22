@@ -218,7 +218,7 @@ while True:
         skor_rect = skor_yazi.get_rect(center=(GENISLIK//2, YUKSEKLIK//2 + 30))
         ekran.blit(skor_yazi, skor_rect)
         
-        dev_yazi = font_hud.render("Geliştirici: Hamza Demirkol 251241 9/C | Ultra Grafik Sürümü", True, BEYAZ)
+       
         ekran.blit(dev_yazi, (20, YUKSEKLIK - 40))
         pygame.display.flip()
         continue 
