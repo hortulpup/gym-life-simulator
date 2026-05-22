@@ -357,7 +357,7 @@ while True:
             sahne = "CADDE"
             oyuncu_pos[1] = 60
 
-    # --- ENVANTER ---
+    # inventory
     if envanter_acik:
         pygame.draw.rect(ekran, (30, 30, 30), (250, 150, 500, 400), border_radius=15)
         ekran.blit(font_hud.render("ENVANTER (Kullanmak için 1-4 tuşlarına bas)", True, ALTIN), (280, 170))
